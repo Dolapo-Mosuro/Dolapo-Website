@@ -122,7 +122,7 @@ a::after{
     text-decoration: underline;
 }
 .social-media:hover{
-    background-color: #fff;
+    color: #fff;
 }
 .btn:hover{
     background-color: #ffffff;
