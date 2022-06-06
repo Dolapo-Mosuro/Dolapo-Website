@@ -124,10 +124,6 @@ a::after{
 .social-media:hover{
     color: #fff;
 }
-.btn:hover{
-    background-color: #ffffff;
-
-}
 
 /*Contact me page*/
 .sections{
@@ -139,7 +135,7 @@ a::after{
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: normal;
     width: 100%;
     height: 100%;
     padding: 70px 100px;
@@ -199,14 +195,14 @@ h2::after{
     width: 85%;
     padding: 0.5rem 1rem;
     outline: none;
-    border: 2px solid #e0b929;
-    background-color: #fff;
+    border-radius: 5px;
+    background-color: #ffffff;
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
 }
 
-.input-section:focus{
+.field:focus{
     background-color: #fff;
     border: 2px solid #e0b929;
 }
@@ -220,11 +216,12 @@ textarea{
     transition: .3s;
 }
 
-.btn{
+#btn{
     display: inline-block;
     background-color: #e0b929;
     border-radius: 5px;
     padding: 10px 20px;
+    margin-top: 30px;
     box-sizing: border-box;
     text-decoration: none;
     color: #0a0a14;
@@ -232,11 +229,29 @@ textarea{
     transition: .3s;
 
 }
-.btn:hover{
+#btn:hover{
     color: #ffffff;
     border: 3px solid #e0b929;
     border-radius: 5px ;
 
+}
+.reg-link{
+    margin: 20px;
+    padding: 20px;
+
+}
+.reg-link p{
+    font-size: 16px;
+
+}
+.reg-link p a{
+    color: #c09317;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.reg-link p a:hover{
+    text-decoration: underline;
 }
 @media screen  and (max-width: 880px) {
     .contact-box{
@@ -245,4 +260,15 @@ textarea{
     .left{
         height: 200px
     }
+}
+
+/*Login page*/
+
+input-section2{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3-15px);
+    flex-direction: column;
+    margin-top: 10px 0;
 }
