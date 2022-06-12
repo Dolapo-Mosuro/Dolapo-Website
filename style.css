@@ -196,6 +196,7 @@ h2::after{
     padding: 0.5rem 1rem;
     outline: none;
     border-radius: 5px;
+    border: 2px solid #e0b929;
     background-color: #ffffff;
     font-size: 1.1rem;
     margin-bottom: 22px;
@@ -206,15 +207,7 @@ h2::after{
     background-color: #fff;
     border: 2px solid #e0b929;
 }
-textarea{
-    min-height: 150px;
-    width: 85%;
-    padding: 0.5rem 1rem;
-    border: 2px solid #e0b929;
-    background-color: #fff;
-    font-size: 1.1rem;
-    transition: .3s;
-}
+
 
 #btn{
     display: inline-block;
