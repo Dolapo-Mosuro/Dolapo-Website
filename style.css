@@ -89,12 +89,12 @@ nav ul li a{
 
 }
 .img{
-    width: 50%;
+    width: 100%;
 }
 .img-section{
     height: 100%;
     margin: 0 70px;
-    position: absolute;
+    text-align: center;
     bottom: 20;
     border: 5px solid #0a0a14;
 
